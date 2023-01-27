@@ -1,0 +1,87 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css");
+
+/* xxx */
+.nav-link {
+    color: rgb(47, 106, 154);
+}
+.second-container{
+    background-color:#0d6efd;
+    margin: 30px 0px;
+   
+}
+.second-content{
+text-align: center;
+padding: 20px 20px;
+}
+.second-content h4{
+    color: white;
+}
+.third-container{
+    text-align: center;
+    
+}
+.fourth-content button{
+    margin: 13px;
+    background-color: #fff;
+    color: rgb(51, 147, 207);
+    width: 150px;
+    height: 45px;
+    border: 1.5px solid rgb(51, 147, 207);
+    border-radius: 3px;
+text-align: center;
+
+}
+.Testimonials{
+   
+    position: relative;
+     font-size: 20px;
+      margin: auto;
+     line-height: 25px;
+     background-color: #fff;
+      width: 500px;
+       height: 170px;
+       border-radius: 20px 0 0px 0;
+       box-shadow: 0 3px 8px 0 rgb(226 131 243 / 20%), 0 6px 20px 0 rgb(47, 106, 154);
+}
+.test{
+    text-align: center;
+       padding: 30px 
+   }
+   .last-container{
+    background-color: rgba(78, 80, 103, 255);
+  color: #fff
+}
+.footer{
+    background-color: black; 
+    color: #fff; 
+}
+.loca{
+    padding: 10px 0px;
+}
+
+
+@media only screen and (max-width: 720px) {
+    .mid-img{
+        display: none;
+    }
+    .second-content{
+        text-align: center
+    }
+    .second-content img {
+        height: 100px ;
+        width: auto ;
+    }
+    .second-content h4{
+        font-size: 13px;
+    }
+    .table-img{
+        text-align: center;
+        height: 150px;
+        width: auto;
+    }
+    .Testimonials{
+    
+        height: 260px ;
+        width: auto
+            }
+}
